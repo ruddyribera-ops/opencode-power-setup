@@ -2,6 +2,24 @@
 
 One-click installer that transforms OpenCode into a project-aware AI assistant with memory, skills, and automation.
 
+## The Story
+
+I'm a K-12 technology teacher in Santa Cruz, Bolivia. I have no formal programming background. Everything I know is self-taught through YouTube videos and trial and error.
+
+After 2 years of using ChatGPT, Gemini, and every AI tool I could find, I kept running into the same problems:
+- AI tools forget everything between sessions
+- Context windows get exhausted
+- Token limits hit right when conversations get useful
+- Premium tools cost $20/month for features I barely use
+
+I found OpenCode and loved it. But it kept getting stuck in loops and burning through tokens. Then I found a video about editing `claude.md` to make Claude more efficient.
+
+**Could I do this for OpenCode?**
+
+I asked OpenCode (using Opus 4.6) to create a custom setup — and it worked.
+
+**From discovering OpenCode to building the one-click installer: 3 days.**
+
 ## What It Does
 
 | Feature | Before | After |
@@ -29,7 +47,7 @@ cd opencode-power-setup
 ## Requirements
 
 - [OpenCode](https://opencode.ai) installed (`npm install -g @opencodeai/cli`)
-- Windows (PowerShell) — macOS/Linux versions coming soon
+- Windows (PowerShell)
 
 ## Quick Start
 
@@ -48,12 +66,15 @@ opencode
 - **Project Templates** — `/init-project` bootstrap
 - **Skill Template** — Create custom skills
 - **MCP Alternatives** — Save ~130MB RAM
+- **Cleanup Scripts** — Organize folders, clean disks, free RAM
 
-## Documentation
+## Why This Matters
 
-- [MEMORY.md](MEMORY.md) — How to use the memory system
-- [MCP_ALTERNATIVES.md](MCP_ALTERNATIVES.md) — Optimize your setup
-- [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md) — Create custom skills
+Most AI CLI tools forget everything between sessions. This setup makes OpenCode **remember your projects, your rules, and your patterns**.
+
+I want anyone who tries this to realize something:
+
+**You have something that performs just as good — if not better — than premium tools. For absolutely free.**
 
 ## Commands
 
@@ -81,12 +102,18 @@ opencode
     └── Optimize-OpenCode.ps1
 ```
 
-## Contributing
+## The Message
 
-See [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md) for how to add custom skills.
+If I can build this — as a K-12 teacher with no programming background — so can you.
+
+The tools are already there. The AI is already there. What you need is:
+1. A problem worth solving
+2. The willingness to ask questions
+3. The persistence to keep trying
 
 ---
 
 **License:** MIT  
-**Author:** Ruddy Ribera  
-**Repo:** github.com/ruddyrbn/opencode-power-setup
+**Author:** Ruddy D. Ribera S.  
+**Location:** Santa Cruz, Bolivia  
+**Repo:** https://github.com/ruddyribera-ops/opencode-power-setup
