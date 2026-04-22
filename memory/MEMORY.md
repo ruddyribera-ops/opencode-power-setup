@@ -18,9 +18,22 @@
 
 ## Active Memories
 
-<!-- Keep each line under 150 chars. Format: - [Title](file.md) — one-line hook -->
+- [BDM App project facts](project_bdm-app.md) — BDM App (Bosques del Mundo Bolivia): Vite+React+Express+Gemini, Railway deploy, all key files/URLs
+- [Palma Coin lessons: remote sync, Railway ephemeral fs, x-user-role spoofing, WS proxy, PG migration, idempotent seeds](feedback_palma_lessons.md)
+- [Debug hypothesis discipline](feedback_debug_hypothesis.md) — inspect body + headers (`x-powered-by`, `server`) to locate which layer returned a 4xx/5xx before blaming infra
+- [Divergent git remotes](feedback_git_divergent_remote.md) — handle force-push/squash remotes: fetch → inspect merge-base → decide (align or force-push) — never blind-rebase
+- [Reference links](reference_links.md) — live URLs, GitHub, Railway, library docs
+- [User preferences](user_preferences.md) — Spanish-first comms, direct style, BDM context established
 - [User profile](user_profile.md) — Ruddy Ribera, Bolivia (GMT-4), Spanish-first, direct style
 - [Active projects](project_active.md) — PRIA (EdTech Streamlit) + Palma Coin (Railway)
+- [Current sprint](current_sprint.md) — live phase status; coordinator auto-updates after each task/push
+- [Commit convention](feedback_commit_convention.md) — conventional-commit format; applied to every commit
+- [Windows shell gotchas](feedback_windows_shell.md) — bash-on-Windows: `;` not `&&`, forward slashes, heredocs, CRLF/LF diff trap, PowerShell interop
+- [Playwright MCP EACCESS](feedback_playwright_eaccess.md) — Windows Defender/scan blocks browser spawn inside OpenCode MCP; fix: add exclusion + clear temp
+- [GH token scope gap](project_gh_token_scope.md) — gh CLI can't reach private pria-app; use git push + web UI for PRs/secrets
+- [E2E waits on Railway](feedback_e2e_waits.md) — prefer wait_for_selector over fixed timeouts on cold-start Streamlit
+- [Streamlit login DOM](reference_streamlit_login.md) — stable Playwright selectors for Streamlit login forms
+- [Railway deploy surface](reference_railway.md) — PRIAv5 URLs, project/service IDs, deploy quirks
 
 ## Rules for Writing Memory
 
